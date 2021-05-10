@@ -6,7 +6,7 @@
             </div>
             <div class="header-nav">
                 <ul class="main-menu">
-                    <li class="active"><a href="#">Inicio</a></li> 
+                    <li class="{{request()->routeIs('frontend.index*') ? 'active' : ''}}"><a href="{{route('frontend.index')}}">Inicio</a></li> 
 
                     <li><a href="#">Tienda</a>
                         {{-- <ul class="sub-menu">
@@ -18,7 +18,7 @@
                         </ul> --}}
                     </li>
 
-                    <li><a href="pages-about-me-v1.html">Blog</a></li>
+                    <li class="{{request()->routeIs('frontend.blog*') ? 'active' : ''}}"><a href="{{route('frontend.blog')}}">Blog</a></li>
     
                     {{-- <li class="menu-item-has-children"><a href="#">Posts</a>
                         <ul class="sub-menu">
@@ -32,7 +32,7 @@
                             <li><a href="single-post-without-sidebar.html">Without Sidebar Post</a></li>
                         </ul>
                     </li> --}}
-                    <li><a href="pages-contact-me-v2.html">Contacto</a></li>
+                    <li class="{{request()->routeIs('frontend.contacto*') ? 'active' : ''}}"><a href="{{route('frontend.contacto')}}">Contacto</a></li>
                 </ul>
             </div>
             <div class="header-widgets">

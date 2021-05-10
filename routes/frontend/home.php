@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend\BlogController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\User\AccountController;
@@ -11,7 +12,9 @@ use App\Http\Controllers\Frontend\User\ProfileController;
  * All route names are prefixed with 'frontend.'.
  */
 Route::get('/', [HomeController::class, 'index'])->name('index');
-Route::get('contact', [ContactController::class, 'index'])->name('contact');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog/example', [BlogController::class, 'ver'])->name('blog.ver');
+Route::get('/contact', [ContactController::class, 'index'])->name('contacto');
 Route::post('contact/send', [ContactController::class, 'send'])->name('contact.send');
 
 /*

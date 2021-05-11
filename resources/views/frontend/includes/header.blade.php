@@ -33,7 +33,7 @@
                         </ul>
                     </li> --}}
                     <li class="{{request()->routeIs('frontend.contacto*') ? 'active' : ''}}"><a href="{{route('frontend.contacto')}}">Contacto</a></li>
-                    <li class="{{request()->routeIs('frontend.contacto*') ? 'active' : ''}}"><a href="{{route('frontend.auth.logout')}}">admin</a></li>
+                    <li class="{{request()->routeIs('frontend.contacto*') ? 'active' : ''}}"><a href="{{route('frontend.auth.login')}}">admin</a></li>
                 </ul>
             </div>
             <div class="header-widgets">

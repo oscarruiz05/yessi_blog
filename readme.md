@@ -1,17 +1,4 @@
-## Laravel Admin Panel (Current: Laravel 7.*)
-
-[![StyleCI](https://styleci.io/repos/105789824/shield?style=plastic)](https://github.styleci.io/repos/105789824)
-![GitHub contributors](https://img.shields.io/github/contributors/FTXInfotech/laravel-adminpanel.svg)
-![GitHub stars](https://img.shields.io/github/stars/FTXInfotech/laravel-adminpanel.svg?style=social)
-
-### Introduction
----
-Laravel Admin Panel provides you with a massive head start on any size web application. It comes with a full featured access control system out of the box with an easy to learn API and is built on a Bootstrap foundation with a front and backend architecture. We have put a lot of work into it and we hope it serves you well and saves you time!
-
-* The project is based on the [Rappasoft Laravel Boilerplate](https://github.com/rappasoft/laravel-boilerplate/releases/tag/v6.0.1), with enhancements and many modules pre-made, just for you.
-* Article on our Admin Panel on CodeWall : [https://www.codewall.co.uk/the-laravel-admin-panel-that-you-need/](https://www.codewall.co.uk/the-laravel-admin-panel-that-you-need/)
-* MIT: [http://anthony.mit-license.org](http://anthony.mit-license.org)
-
+## Sitema de blog con laravel
 ### Setup
 ---
 Clone the repo and follow below steps.
